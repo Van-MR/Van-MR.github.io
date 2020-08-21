@@ -215,7 +215,7 @@ a {
   color: rgba(255,255,255,0.8);
   font-size: 1.2em;
 }
-#download {
+.header .wrapper #download {
   position: absolute;
   top: 15px;
   right: 10px;
@@ -226,10 +226,6 @@ a {
   background: #302e31;
   cursor: pointer;
   background: #fff;
-}
-.ability {
-  position: relative;
-  right: -12px;
 }
 .main {
   position: relative;
@@ -313,6 +309,10 @@ a {
 }
 .main .side .block .content .item:last-child {
   margin-bottom: 0;
+}
+.main .side .block .content .item:last-child.ability {
+  position: relative;
+  right: -12px;
 }
 .main .side .block .content .item:last-child p {
   margin-bottom: 0;
