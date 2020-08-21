@@ -310,10 +310,6 @@ a {
 .main .side .block .content .item:last-child {
   margin-bottom: 0;
 }
-.main .side .block .content .item:last-child.ability {
-  position: relative;
-  right: -12px;
-}
 .main .side .block .content .item:last-child p {
   margin-bottom: 0;
 }
@@ -396,6 +392,10 @@ a {
   left: 0;
   height: 100%;
   background: #302e31;
+}
+.main .side .block.skill .item .ability {
+  position: relative;
+  right: -12px;
 }
 .main .side .block.skill .item.js .value::after {
   width: 80%;
